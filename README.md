@@ -22,9 +22,19 @@ Interactive Tableau dashboards used to monitor shipping performance and product 
 
 # Data Structure & Initial Checks
 
-The dataset used in this analysis comes from the [DataCo Smart Supply Chain for Big Data Analysis available on Kaggle](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis). The supply chain dataset consists of a single table with 180,519 order records from 2015 to 2018. This analysis focuses on January through September 2017 because of data completeness. The original dataset included 53 columns. After validating and cleaning the data, 32 columns were selected for analysis. The dataset captures the full order lifecycle from placement to delivery. There are no duplicate values or missing data. 
+The dataset used in this analysis comes from the [DataCo Smart Supply Chain for Big Data Analysis](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis) available on Kaggle. The supply chain dataset consists of a single table with 180,519 order records from 2015 to 2018. This analysis focuses on January through September 2017 because of data completeness. The original dataset included 53 columns. After validating and cleaning the data, 32 columns were selected for analysis. The dataset captures the full order lifecycle from placement to delivery. There are no duplicate values or missing data. 
 
 ![Data Structure](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/f17e7abfad01c65fd690c10db7fafae8547e3e1d/Images/Data%20Structure.png)
+
+Key data components:
+
+- **Order Information:** Order ID, date, quantity, customer details, and product information
+- **Shipping Details:** Shipping mode, scheduled vs actual shipping days, delivery status
+- **Financial Metrics:** Order value, product price, profit per order, and discount information
+- **Geographic Data:** Customer location, market region (North America, South America, Europe, Africa, Pacific-Asia)
+- **Product Attributes:** Product name, category, department
+
+The data wrangling process involved checking data types and quality issues, and ensuring the dataset was clean and ready for analysis in Tableau. There, calculated fields for important performance metrics, including late delivery rate, on-time delivery rate, late delivery period in days, total revenue, total profit, and profit margin were created.
 
 
 
