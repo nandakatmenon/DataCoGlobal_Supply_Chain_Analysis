@@ -25,6 +25,7 @@ Interactive Tableau dashboards used to monitor shipping performance and product 
 The dataset used in this analysis comes from the [DataCo Smart Supply Chain for Big Data Analysis](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis) available on Kaggle. The supply chain dataset consists of a single table with 180,519 order records from 2015 to 2018. This analysis focuses on January through September 2017 because of data completeness. The original dataset included 53 columns. After validating and cleaning the data, 32 columns were selected for analysis. The dataset captures the full order lifecycle from placement to delivery. There are no duplicate values or missing data. 
 
 ![Data Structure](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/f17e7abfad01c65fd690c10db7fafae8547e3e1d/Images/Data%20Structure.png)
+<p align="center"><em>Dataset Structure showing the 32 columns organized by category</em></p>
 
 Key data components:
 
@@ -42,9 +43,21 @@ The data wrangling process involved checking data types and quality issues, and 
 
 ### Overview of Findings
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+The supply chain analysis reveals critical performance issues that need immediate attention, along with noticeable patterns in product demand and profitability.
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+**Shipping Performance:** Delivery performance has worsened throughout 2017. Late deliveries increased from 53.61% in January to 54.23% by September. The analysis found major differences across shipping methods. First Class delivery has a 94.48% late delivery rate, even though it is the most profitable option. Same Day delivery has a strong 45.13% on-time rate, but it only makes up 5% of order volume. Standard Class, the most popular shipping method at 60% of orders, shows the best reliability with just a 37.82% late delivery rate.
+
+**Product Demand and Financial Performance:** While delivery metrics fell, revenue and profit grew. Revenue went up from around 925K in January to 1.03M by September, and profit increased from 114.8K to 122.5K during the same time. The analysis showed that high order volume does not always lead to high profitability. For example, products like the Perfect Fitness Perfect Rip Deck ranked in the top 5 for demand, revenue, and profit, while other high-demand items had lower margins due to pricing strategies.
+
+**Regional Variations:** South America accounts for 56% of total orders, but Europe leads in revenue per order at 175 USD compared to South America's 112 USD. North America, despite being the smallest market by volume, achieves the highest profit per order at 39 USD. This suggests that there are significant opportunities for targeted strategies in different regions.
+
+These findings indicate opportunities for substantial improvement through careful reallocation of shipping resources, targeted process improvements, and region-specific product and pricing strategies.
+
+![Dashboard Tab 1](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/a5693ac196deac1e75e900807431877fe4338930/Images/Dashboard%20Tab%201.png)
+<p align="center"><em>Dashboard Tab 1: Shipping Performance - showing KPIs for late delivery rate, on-time delivery rate, and delivery trends</em></p>
+
+![Dashboard Tab 2](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/a5693ac196deac1e75e900807431877fe4338930/Images/Dashboard%20Tab%202.png)
+<p align="center"><em>Dashboard Tab 2: Product Demand - showing revenue, profit, and demand metrics across products and regions</em></p>
 
 
 
