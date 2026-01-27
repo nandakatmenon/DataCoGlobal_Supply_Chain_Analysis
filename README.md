@@ -22,13 +22,9 @@ Interactive Tableau dashboards used to monitor shipping performance and product 
 
 # Data Structure & Initial Checks
 
-The companies main database structure as seen below consists of four tables: table1, table2, table3, table4, with a total row count of X records. A description of each table is as follows:
-- **Table 2:**
-- **Table 3:**
-- **Table 4:**
-- **Table 5:**
+The dataset used in this analysis comes from the [DataCo Smart Supply Chain for Big Data Analysis available on Kaggle](https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis). The supply chain dataset consists of a single table with 180,519 order records from 2015 to 2018. This analysis focuses on January through September 2017 because of data completeness. The original dataset included 53 columns. After validating and cleaning the data, 32 columns were selected for analysis. The dataset captures the full order lifecycle from placement to delivery. There are no duplicate values or missing data. 
 
-[Entity Relationship Diagram here]
+![Data Structure]([https://github.com/reshmaanil144/Medicare-Part-D-Analysis/blob/main/image.png](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/f17e7abfad01c65fd690c10db7fafae8547e3e1d/Images/Data%20Structure.png))
 
 
 
