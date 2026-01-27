@@ -105,17 +105,21 @@ These findings indicate opportunities for substantial improvement through carefu
 <p align="center"><em>Distribution of late delivery periods showing histogram (overall) and box plots (by shipping mode)</em></p>
 
 
-### Category 3:
+### Product Demand and Revenue Patterns:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Top performers show consistency across metrics.** Three products, Perfect Fitness Perfect Rip Deck, Nike Men's Dri-FIT Victory Golf Polo, and Nike Men's Free 5.0+ Running Shoe, ranked in the top 5 for demand, revenue, and profit at the same time. This consistency indicates a strong fit between the product and the market, along with optimized pricing.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **High demand doesn't always mean high profitability.** Products like O'Brien Men's Neoprene Life Vest and Under Armour Girl's Toddler Surge Running Shoes had high order volumes but did not make it into the top 5 for revenue or profit due to lower price points and profit margins. This shows the need to balance volume and margins in product strategy.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Premium products drive significant revenue despite lower volume.** Field & Stream Sportsman 16 Gun Fire Safe and Diamondback Women's Serene Classic Comfort Bike did not rank in the top 5 for demand but achieved high revenue and profit through premium pricing and strong margins. This demonstrates the value of having a varied product portfolio.
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Revenue and profit grew while margins stayed stable.** From January to September 2017, revenue increased from about 925K to 1.03M, while profit grew from 114.8K to 122.5K. Profit margins remained relatively stable, ranging between 11.51% and 13.32%, with the latest figure at 12.56% in September.
 
-[Visualization specific to category 3]
+![Monthly revenue, profit, and profit margin trends](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/956eec53a8ab12011f45501fb13490a2a2929acc/Images/Monthly%20revenue%2C%20profit%2C%20and%20profit%20margin%20trends.png)
+<p align="center"><em>Monthly revenue, profit, and profit margin trends from January to September 2017</em></p>
+
+![Top 5 products ranked](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/3f1ee934212fc43c1a393171f9b0eb0984f54041/Images/Top%205%20products%20ranked.png)
+<p align="center"><em>Top 5 products ranked by demand (products ordered), revenue, and profit</em></p>
 
 
 ### Category 4:
