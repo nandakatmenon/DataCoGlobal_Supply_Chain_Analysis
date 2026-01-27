@@ -62,17 +62,16 @@ These findings indicate opportunities for substantial improvement through carefu
 
 
 # Insights Deep Dive
-### Category 1:
+### Shipping Performance Trends:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **On-time delivery performance is declining.** The on-time delivery rate fell from 18.94% in January to 17.31% by September 2017. This 1.63 percentage point drop shows that delivery reliability is getting worse over time, suggesting ongoing problems in the fulfillment process.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Late delivery rates are rising throughout 2017.** Late deliveries went up from 53.61% in January to a high of 56.44% in August, finally settling at 54.23% in September. This trend is alarming because it affects more than half of all orders, which directly influences customer satisfaction and retention.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Q3 performance shows further deterioration.** The third quarter of 2017 had a late delivery rate of 55.15% and an on-time rate of only 17.27%. This is a 1.56% increase in late deliveries compared to Q2. The average late delivery period also rose from 0.54 days in Q2 to 0.58 days in Q3.
 
-[Visualization specific to category 1]
+![Quarterly comparison of shipping performance](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/f42100e5d80b31c00a3d654f6f5d0cb02ac921d1/Images/Quarterly%20comparison%20of%20shipping%20performance.png)
+<p align="center"><em>Quarterly comparison of shipping performance metrics across Q1, Q2, and Q3 2017</em></p>
 
 
 ### Category 2:
