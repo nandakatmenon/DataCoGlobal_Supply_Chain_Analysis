@@ -73,18 +73,36 @@ These findings indicate opportunities for substantial improvement through carefu
 ![Quarterly comparison of shipping performance](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/f42100e5d80b31c00a3d654f6f5d0cb02ac921d1/Images/Quarterly%20comparison%20of%20shipping%20performance.png)
 <p align="center"><em>Quarterly comparison of shipping performance metrics across Q1, Q2, and Q3 2017</em></p>
 
+* **Regional variations in delivery reliability exist.** North America leads with the highest on-time delivery rate at 24.58%. In contrast, Pacific-Asia has the highest late delivery rate at 55.68%. These regional differences suggest that delivery challenges may stem from geographic factors, the quality of infrastructure, or partnerships with carriers.
 
-### Category 2:
+![Monthly trends showing delivery rate](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/573fbec43947f1cf4e7d8e7598e6b7f426c97976/Images/Monthly%20trends%20showing%20delivery%20rate.png)
+<p align="center"><em>Monthly trends showing late delivery rate and on-time delivery rate from January to September 2017</em></p>
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+![Quarterly breakdown of on-time delivery rates](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/322bb98c649f2913b4cb8fb01a49faa9ff1ab658/Images/Quarterly%20breakdown%20of%20on-time%20delivery%20rates.png)
+<p align="center"><em>Quarterly breakdown of on-time delivery rates by market region and shipping mode</em></p>
 
-[Visualization specific to category 2]
+
+### Shipping Mode Analysis:
+
+* **First Class delivery is critically underperforming.** It makes up 15% of all orders and is the most profitable shipping mode, yet it has a troubling 94.48% late delivery rate this year, with effectively 0% on-time deliveries. This situation indicates a major operational failure that could harm customer relationships and the brand's reputation.
+  
+* **Second Class shows moderate reliability issues.** It has a 75.82% late delivery rate and accounts for 19% of order volume. Second Class also has the longest median late delivery time at 2 days. Although this is not as bad as First Class, it still does not meet acceptable standards.
+  
+* **Same Day delivery shows strong performance but has low adoption.** It has the highest on-time rate at 45.13% and is the second most profitable option, but it only represents 5% of total orders. This indicates a big opportunity to improve customer value and profitability by increasing the use of Same Day shipping.
+  
+* **Standard Class is the most reliable for bulk volume.** It is the most popular choice, making up 60% of all orders. Standard Class has the lowest late delivery rate at 37.82% and a median late delivery period of 0 days, ranging from 2 days early to 2 days late. Its mix of reliability and popularity makes it the operational backbone of the delivery network.
+
+![Year-to-date on-time delivery rates](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/6b6281b2c41c82c0634e4569911ed55dc17f0c46/Images/Year-to-date%20on-time%20delivery%20rates.png)
+<p align="center"><em>Year-to-date on-time delivery rates by market region and shipping mode</em></p>
+
+![Quarterly breakdown showing late delivery rates](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/87ecd435853cfb40d728f2c93bfd49e28ca20d10/Images/Quarterly%20breakdown%20showing%20late%20delivery%20rates.png)
+<p align="center"><em>Quarterly breakdown showing late delivery rates across regions and shipping modes</em></p>
+
+![Year-to-date late delivery rates](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/70385d5ffdee9e9b1af3eab5ff3cf666fc3a9e30/Images/Year-to-date%20late%20delivery%20rates.png)
+<p align="center"><em>Year-to-date late delivery rates by market region and shipping mode</em></p>
+
+![Distribution of late delivery periods](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/afecc4aec3169d8dee9efcc5d4121dc379be1b8b/Images/Distribution%20of%20late%20delivery%20periods.png)
+<p align="center"><em>Distribution of late delivery periods showing histogram (overall) and box plots (by shipping mode)</em></p>
 
 
 ### Category 3:
