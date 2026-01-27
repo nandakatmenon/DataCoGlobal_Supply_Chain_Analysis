@@ -1,26 +1,22 @@
 # DataCo Global Supply Chain Analysis: Optimizing Delivery Performance and Demand Planning
-Supply Chain Analysis for an e-commerce company.
-
-Welcome to the sample GitHub ReadME! Use this template as an outline for your data analytics projects. Include one ReadME per repository, with each repository storing one project. Remember, it's better to have quality over quantity - having 2 stellar business-relevant projects stands out much more than 3+ mediocre projects. Feel free to make a copy of this or fork this repository and make it your own. Happy portfolio-ing :) 
-
-
-
 
 # Project Background
-Backround about the company, including the industry, active years, business model, and key business metrics. Explain this from the POV of a data analyst who is working at the company.
+This project analyzes the supply chain operations of DataCo Global, a multinational e-commerce company active in North America, South America, Europe, Africa, and Pacific-Asia. DataCo Global's business model connects customers with a wide range of products, including fitness equipment, apparel, electronics, and outdoor gear. The company serves over 30,000 unique customers with more than 10,000 different products. 
+
+DataCo Global is facing significant challenges with delivery performance and demand forecasting, which affect customer satisfaction and operational efficiency. In the competitive e-commerce market, good supply chain management is crucial for delivering orders on time and meeting customer demand, but DataCo Global is struggling in both areas.
+
+The supply chain team currently depends on ad-hoc daily and weekly reports. This has led to three main issues: inconsistent data sources that hinder demand planning, lack of real-time visibility into operations, and a consistently high late delivery rate that reached its peak in early 2017. By examining 180,519 orders across different shipping methods and market regions from January to September 2017, this project aims to provide data-driven insights to improve the shipping process and refine demand planning strategies.
 
 Insights and recommendations are provided on the following key areas:
 
-- **Category 1:** 
-- **Category 2:** 
-- **Category 3:** 
-- **Category 4:** 
+- **Shipping Performance Analysis:** Evaluation of on-time and late delivery rates for different shipping modes and time periods
+- **Delivery Mode Efficiency:** A close look at the performance of First Class, Second Class, Same Day, and Standard Class shipping
+- **Product Demand Patterns:** Analysis of revenue, profit, and order volumes for products, regions, and categories
+- **Operational Metrics:** Review of delivery lead times, profit margins, and regional performance variations
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
+The Python notebook used to clean and wrangle the data for this analysis can be found here [https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/main/Supply_Chain_Dataset_Wrangling.ipynb].
 
-Targed SQL queries regarding various business questions can be found here [link].
-
-An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
+Interactive Tableau dashboards used to monitor shipping performance and product demand can be found here [https://public.tableau.com/views/SupplyChainDashboard_17694004638230/ShippingPerformance?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link].
 
 
 
