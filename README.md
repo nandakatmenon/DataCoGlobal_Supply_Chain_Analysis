@@ -14,7 +14,7 @@ Insights and recommendations are provided on the following key areas:
 - **Product Demand Patterns:** Analysis of revenue, profit, and order volumes for products, regions, and categories
 - **Operational Metrics:** Review of delivery lead times, profit margins, and regional performance variations
 
-The Python notebook used to clean and wrangle the data for this analysis can be found [here](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/main/Supply_Chain_Dataset_Wrangling.ipynb).
+The Python notebook used to clean and wrangle the data for this analysis can be found [here](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/1ac98501385ca31cb6243818f2fb5aaa8b599eed/Python%20Notebook/Supply_Chain_Dataset_Wrangling.ipynb).
 
 Interactive Tableau dashboards used to monitor shipping performance and product demand can be found [here](https://public.tableau.com/views/SupplyChainDashboard_17694004638230/ShippingPerformance?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link).
 
