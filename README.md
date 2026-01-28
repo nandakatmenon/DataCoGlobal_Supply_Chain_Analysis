@@ -122,17 +122,28 @@ These findings indicate opportunities for substantial improvement through carefu
 <p align="center"><em>Top 5 products ranked by demand (products ordered), revenue, and profit</em></p>
 
 
-### Category 4:
+### Regional and Market Performance:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **South America leads in order volume.** The Latin America region accounts for 55,654 units ordered year-to-date, which is 56% of the total volume. This figure is much higher than Europe, which has 38,421 units, or 39%. However, this advantage in volume does not directly result in higher revenue because of differences in regional pricing and product mix.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Standard Class is the preferred shipping choice in all regions.** Standard Class delivery handles about 60% of all ordered products, totaling 59,818 units year-to-date. It is clearly the most popular shipping option. Following this are Second Class at 19%, which amounts to 19,222 units, First Class at 15%, with 14,961 units, and Same Day at only 5%, totaling 5,454 units. The strong preference for Standard Class shows that customers value cost-effectiveness and reliability more than speed.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Shipping mode preferences reflect affordability and reliability.** The way order volume is spread across shipping methods highlights customer priorities. The dominance of Standard Class indicates that most customers are willing to wait longer for delivery in exchange for lower costs and greater reliability, with a late delivery rate of 37.82%. The low usage of Same Day delivery, even though it has a high on-time rate of 45.13%, suggests limited availability, higher costs that discourage customers, or a lack of awareness about this option.
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Europe tops in revenue per order.** European orders generate the highest median revenue at 175 USD per order, compared to just 112 USD for South American orders. This 56% difference in order value points to opportunities for pricing improvement and promoting premium products in high-performing regions.
 
-[Visualization specific to category 4]
+* **North America shows the highest profitability per transaction.** Although it has the smallest market by volume, with only 266 units, North American orders generate the highest median profit at 39 USD per order, compared to 18 USD for South American orders. This suggests better margin management or a different customer segment willing to pay more.
+
+* **Geographic expansion opportunities are available.** Africa, with 2,795 units, and Pacific-Asia, with 2,319 units, represent smaller markets that can grow, especially given their moderate performance metrics. These regions have on-time delivery rates of 22.42% and 19.46%, respectively, indicating they have the operational capability to support expansion.
+
+![Quarterly breakdown of order volumes](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/68a7856b5a6229365cfe7ff459402663fefaf0c7/Images/Quarterly%20breakdown%20of%20order%20volumes.png)
+<p align="center"><em>Quarterly breakdown of order volumes by market region and shipping mode</em></p>
+
+![Year-to-date order volume distribution](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/95439d1ce4edb9aeb244a5cb974941a4dfc16d7b/Images/Year-to-date%20order%20volume%20distribution.png)
+<p align="center"><em>Year-to-date order volume distribution across market regions and shipping modes</em></p>
+
+![Box plots showing revenue and profit distributions](https://github.com/nandakatmenon/DataCoGlobal_Supply_Chain_Analysis/blob/3f1a59e5dd10b3114f1498e66247bcf74be32cd8/Images/Box%20plots%20showing%20revenue%20and%20profit%20distributions.png)
+<p align="center"><em>Box plots showing revenue and profit distributions by market region and shipping mode</em></p>
 
 
 
