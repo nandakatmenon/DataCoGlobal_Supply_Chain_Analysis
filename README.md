@@ -149,26 +149,32 @@ These findings indicate opportunities for substantial improvement through carefu
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+Based on the insights and findings above, we recommend the supply chain and operations teams consider the following: 
 
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* **First Class delivery requires immediate action.** With a 94.48% late delivery rate and being the most profitable shipping option, this mode reflects both a significant operational failure and a major opportunity. Conduct a root cause analysis to determine why First Class is underperforming. Consider whether unrealistic service level agreements, carrier partnership issues, or internal processing delays are to blame. **Implement corrective measures within 30 days and aim to reduce late deliveries by at least 50% in the next quarter.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* **Promote and incentivize the use of Same Day delivery.** With its impressive 45.13% on-time rate and high profitability, Same Day delivery should be more prominently highlighted to customers during checkout. **Consider offering promotional pricing or loyalty rewards for selecting Same Day delivery. This could increase its share from the current 5% to at least 10% of orders, improving overall customer satisfaction and boosting profit margins.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* **Optimize the end-to-end fulfillment process.** The decline in on-time delivery suggests ongoing issues that affect all shipping modes. **Invest in process improvements across order fulfillment, warehouse operations, and carrier coordination. Focus especially on reducing the pick-pack-ship cycle time. Implement real-time tracking to identify bottlenecks before they lead to late deliveries.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* **Develop targeted strategies for different regions and product categories.** Europe's high revenue per order and North America's high profit per order indicate these markets can support premium offerings and faster shipping options. **Tailor shipping mode availability and pricing by region. This could involve limiting the unreliable First Class service in low-performing areas while expanding Same Day delivery in high-value markets like North America and Europe.**
   
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
+* **Balance demand volume with profitability.** While Standard Class reliably handles 60% of orders, the analysis shows opportunities to shift some volume to higher-margin options without losing reliability. **Create a dynamic shipping recommendation engine that suggests the best shipping modes based on product type, destination, and customer value. This could increase overall profit margins.**
+
+* **Establish a real-time performance monitoring system.** Relying on ad-hoc reports limits the ability to respond to new issues. **Implement the Tableau dashboards created in this analysis as a daily monitoring tool for the supply chain team. Set up automated alerts for when late delivery rates surpass thresholds or when specific regions or shipping modes show performance declines.**
   
 
 
 # Assumptions and Caveats:
 
-Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
+Throughout the analysis, several assumptions were made to ensure strong findings. These points should be kept in mind when interpreting the results:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
+* **The analysis period includes only part of the year.** The dataset covers January through September 2017, so seasonal patterns related to Q4 holiday shopping are not included. Performance during peak seasons may differ significantly from the trends in this analysis.
   
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
+* **Delivery status classifications are considered final.** The analysis assumes that records labeled "Late delivery," "Shipping on time," and other status categories accurately reflect actual customer experiences. Any misclassification in the source data would affect the calculated late delivery and on-time delivery rates.
   
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+* **External factors are not taken into account.** The analysis does not consider variables like weather events, carrier strikes, port congestion, or other disruptions that may have influenced delivery performance during the study period. Some of the observed performance differences may be due to these uncontrolled factors.
+
+* **Shipping mode selection might not be random.** Customers who choose different shipping modes may represent different groups with varying order characteristics, urgency needs, or price sensitivity. Performance differences between modes may partly reflect these inherent customer distinctions rather than only operational factors.
+
+* **Profitability calculations rely on order-level data.** Profit figures are based on "benefit per order" values in the source data and do not include overhead costs, marketing expenses, or other business costs not assigned to individual orders. True net profitability may be different from the figures presented.
